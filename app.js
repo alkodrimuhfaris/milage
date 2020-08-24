@@ -107,6 +107,6 @@ for (let i=deltaT; i>=0; i-=delta) {
     }
 }
 
-console.log(jarakTotal);
+console.log("jarak tempuh total mobil adalah "+jarakTotal+" m, atau sejauh "+(jarakTotal/1000)+" km");
 
 export {indxDot, indxLine, v, dv, waktu};
